@@ -32,7 +32,7 @@ function createcountry({ name, flag, code, capital, region, population,latitude,
    
   document.body.innerHTML += 
   ` <div class="container">
-    <div class="card"  >
+    <div class="card"  > 
     <h1 id="title" class="text-center">${name}</h1>
     <img src="${flag}" class="flag" alt="${name}'Flag image">
  
